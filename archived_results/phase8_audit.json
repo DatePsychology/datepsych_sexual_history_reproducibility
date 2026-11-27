@@ -1,0 +1,52 @@
+{
+  "original_cohort": 8984,
+  "original_sexual_history_waves": [
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2013,
+    2015
+  ],
+  "original_reported_person_years": {
+    "Men": 19928,
+    "Women": 21477
+  },
+  "constructed_intervals": 96841,
+  "common_usable_intervals": 82555,
+  "post2015_intervals": 19324,
+  "models_attempted": 176,
+  "models_converged": 164,
+  "general_audit": {
+    "cohort": 8984,
+    "unknown_marriage_date": 117,
+    "insufficient_interviews": 85,
+    "married_at_first_interview": 5
+  },
+  "estimator": "complementary log-log",
+  "variance": "respondent-cluster robust",
+  "weighting": "unweighted",
+  "limitations": [
+    "Close reconstruction, not exact replication",
+    "Original code and precise risk-period construction unavailable",
+    "Original geography, family structure, religion and fertility controls not fully reproduced",
+    "Heterosexual-only marriage restriction not independently reconstructed",
+    "Cumulative index is not distinct lifetime partner count",
+    "Contemporaneous reports may include post-marriage sexual activity",
+    "2013 and 2015 reports cover past 12 months rather than full interview gaps",
+    "Post-2015 exposure is frozen, not updated",
+    "Robust variance does not reproduce the complete survey sampling design",
+    "Not a causal analysis"
+  ]
+}

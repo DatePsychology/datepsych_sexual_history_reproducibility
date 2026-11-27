@@ -1,0 +1,56 @@
+panel 96841 common 82555 landmarks {(20, 'Men'): 3793, (20, 'Women'): 3496, (25, 'Men'): 2594, (25, 'Women'): 2347}
+landmark  sex    maximum
+20        Men    0           849
+                 1-4        1841
+                 10+         525
+                 5-9         578
+          Women  0           824
+                 1-4        2156
+                 10+         145
+                 5-9         371
+25        Men    0           198
+                 1-4        1196
+                 10+         648
+                 5-9         552
+          Women  0           175
+                 1-4        1540
+                 10+         186
+                 5-9         446
+dtype: int64
+design strata 117 PSU 234 df 117
+extra counts {0: 4589, 1: 4395} {3: 3359, 2: 2050, 4: 1990, 1: 1585} {1: 6574, 0: 2030, 2: 380} {1: 2522, 2: 1991, 27: 800, 12: 592, 13: 433, 3: 427, 4: 420, 11: 373, 25: 210, 8: 190, 5: 119, -2: 113, 7: 112, 10: 108, 18: 105, 6: 95, 26: 71, 21: 55, 22: 37, 24: 36, 9: 36, 16: 35, 15: 22, 14: 15, 19: 15, 23: 14, 17: 11, -1: 10, 20: 6, 32: 4, 31: 3, 34: 1, 30: 1, 28: 1, 35: 1}
+all_categories
+primary_two_groups
+corroborated_high
+          analysis             sex group                  estimand      n  events  estimate     se      lo      hi
+    all_categories             Men     0                      risk  849.0   473.0    0.6058 0.0170  0.5722  0.6394
+    all_categories             Men   1-4                      risk 1841.0  1071.0    0.6538 0.0151  0.6239  0.6837
+    all_categories             Men   10+                      risk  525.0   228.0    0.5414 0.0246  0.4926  0.5901
+    all_categories             Men   5-9                      risk  578.0   299.0    0.6411 0.0258  0.5900  0.6921
+    all_categories             Men     0                difference  849.0     NaN   -0.0480 0.0204 -0.0884 -0.0076
+    all_categories             Men   10+                difference  525.0     NaN   -0.1124 0.0293 -0.1704 -0.0544
+    all_categories             Men   5-9                difference  578.0     NaN   -0.0127 0.0262 -0.0646  0.0391
+    all_categories           Women     0                      risk  824.0   471.0    0.6538 0.0201  0.6139  0.6937
+    all_categories           Women   1-4                      risk 2156.0  1323.0    0.7042 0.0123  0.6798  0.7286
+    all_categories           Women   10+                      risk  145.0    69.0    0.5725 0.0453  0.4828  0.6623
+    all_categories           Women   5-9                      risk  371.0   223.0    0.6864 0.0223  0.6423  0.7306
+    all_categories           Women     0                difference  824.0     NaN   -0.0504 0.0230 -0.0960 -0.0048
+    all_categories           Women   10+                difference  145.0     NaN   -0.1316 0.0475 -0.2257 -0.0376
+    all_categories           Women   5-9                difference  371.0     NaN   -0.0177 0.0251 -0.0675  0.0320
+    all_categories Women minus Men     0 difference_of_differences    NaN     NaN   -0.0024 0.0334 -0.0685  0.0638
+    all_categories Women minus Men   10+ difference_of_differences    NaN     NaN   -0.0192 0.0528 -0.1237  0.0852
+    all_categories Women minus Men   5-9 difference_of_differences    NaN     NaN   -0.0050 0.0352 -0.0747  0.0646
+primary_two_groups             Men   1-4                      risk 1841.0  1071.0    0.6504 0.0155  0.6197  0.6811
+primary_two_groups             Men   10+                      risk  525.0   228.0    0.5323 0.0246  0.4835  0.5810
+primary_two_groups             Men   10+                difference  525.0     NaN   -0.1181 0.0297 -0.1770 -0.0592
+primary_two_groups           Women   1-4                      risk 2156.0  1323.0    0.6999 0.0124  0.6753  0.7245
+primary_two_groups           Women   10+                      risk  145.0    69.0    0.5622 0.0451  0.4728  0.6516
+primary_two_groups           Women   10+                difference  145.0     NaN   -0.1377 0.0479 -0.2325 -0.0429
+primary_two_groups Women minus Men   10+ difference_of_differences    NaN     NaN   -0.0196 0.0527 -0.1239  0.0847
+ corroborated_high             Men   1-4                      risk 1841.0  1071.0    0.6552 0.0155  0.6245  0.6860
+ corroborated_high             Men   10+                      risk  144.0    63.0    0.5977 0.0568  0.4852  0.7101
+ corroborated_high             Men   10+                difference  144.0     NaN   -0.0576 0.0600 -0.1764  0.0612
+ corroborated_high           Women   1-4                      risk 2156.0  1323.0    0.7000 0.0124  0.6754  0.7246
+ corroborated_high           Women   10+                      risk   14.0     7.0    0.5938 0.1707  0.2557  0.9319
+ corroborated_high           Women   10+                difference   14.0     NaN   -0.1062 0.1695 -0.4419  0.2295
+ corroborated_high Women minus Men   10+ difference_of_differences    NaN     NaN   -0.0486 0.1665 -0.3784  0.2812

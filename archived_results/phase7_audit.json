@@ -1,0 +1,33 @@
+{
+  "age20_n": 7289,
+  "age25_n": 4941,
+  "matched_n": 4620,
+  "paired_bootstrap_repetitions": 1500,
+  "primary_ipcw_bootstrap_repetitions": 250,
+  "expanded_adjustment": [
+    "birth_year",
+    "race_ethnicity",
+    "baseline_income",
+    "biological_father_education",
+    "biological_mother_education",
+    "current_cohabitation",
+    "prior_cohabitation",
+    "recent_count_when_applicable"
+  ],
+  "weighting": "Round 1 sampling weights, with unweighted and capped sensitivities",
+  "ipcw_caps": [
+    5,
+    10,
+    20
+  ],
+  "limitations": [
+    "Observational, not causal",
+    "No verified distinct lifetime partner count",
+    "No full survey-design variance adjustment",
+    "IPCW uses baseline rather than time-varying covariates",
+    "IPCW does not correct initial landmark sample selection",
+    "Sparse extreme-exposure cells",
+    "Missing-category and complete-case sensitivity, not multiple imputation",
+    "All sex-difference follow-up tests remain exploratory"
+  ]
+}

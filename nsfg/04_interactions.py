@@ -1,0 +1,3 @@
+exec(open('02_analysis.py').read().split('for sex,g in a.groupby')[0])
+for y in ['current','ever','union']:
+ h=a[a.LIFPRTNR>0];m=ols(h,f'{y}~logn*C(sex)+C(AGER)*C(sex)+C(HIEDUC)*C(sex)+C(HISPRACE2)*C(sex)+C(wave)*C(sex)');print('positive log sex interaction',y,m.loc['logn:C(sex)[T.M]'].round(4).to_dict()); m=ols(h,f'{y}~C(cat, Treatment(reference="2-4"))*C(sex)+C(AGER)*C(sex)+C(HIEDUC)*C(sex)+C(HISPRACE2)*C(sex)+C(wave)*C(sex)') if False else ols(h.assign(cat=h.cat.cat.remove_unused_categories()),f'{y}~C(cat, Treatment(reference="2-4"))*C(sex)+C(AGER)*C(sex)+C(HIEDUC)*C(sex)+C(HISPRACE2)*C(sex)+C(wave)*C(sex)');print('15+ interaction',m.loc['C(cat, Treatment(reference="2-4"))[T.15+]:C(sex)[T.M]'].round(4).to_dict())

@@ -1,0 +1,21 @@
+{
+  "age20_n": 7289,
+  "age25_n": 4941,
+  "matched_n": 4620,
+  "age25_not_in_age20": 321,
+  "bootstrap_repetitions": 1200,
+  "phase5_landmark_observations": 12230,
+  "corrected_lifetime_anchors_through": 2005,
+  "adjustment_covariates": [
+    "birth_year",
+    "baseline_race_ethnicity",
+    "baseline_household_income_group"
+  ],
+  "relationship_adjustment": [
+    "cohabitation",
+    "recent_partner_category"
+  ],
+  "weight": "Round 1 baseline sampling weight",
+  "equivalence_margin": 0.05,
+  "warning": "Observational analysis; not causal. Bootstrap and cluster covariance do not incorporate the complete survey design. Followup sensitivity is not IPCW adjustment."
+}

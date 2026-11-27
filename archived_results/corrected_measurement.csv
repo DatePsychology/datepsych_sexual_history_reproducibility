@@ -1,0 +1,5 @@
+landmark,sex,n,original_cumulative_median,corrected_cumulative_median,original_maximum_median,corrected_maximum_median,contradictory_histories,additional_anchors,strict_v2_n
+20,Men,3793,4.0,4.0,2.0,2.0,66,871,3622
+20,Women,3496,3.0,3.0,1.0,2.0,33,844,3397
+25,Men,2594,12.0,12.0,4.0,4.0,79,2062,2072
+25,Women,2347,9.0,9.0,3.0,3.0,73,1943,1989

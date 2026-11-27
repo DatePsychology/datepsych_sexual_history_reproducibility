@@ -1,0 +1,25 @@
+{
+  "source_archive": "nlsy97_all_1997-2023.zip",
+  "codebook_entries_parsed": 305325,
+  "original_csv_columns": 305325,
+  "selected_variables": 1846,
+  "matched_variables": 1846,
+  "respondent_rows": 8984,
+  "unique_respondent_ids": 8984,
+  "unmatched_references": [],
+  "variable_group_counts": {
+    "sexual_history": 1353,
+    "interview_dates": 108,
+    "education_employment": 129,
+    "weights": 28,
+    "religiosity": 47,
+    "marriage_cohabitation": 55,
+    "relationships": 81,
+    "family_background": 47,
+    "baseline_reference": 6,
+    "demographics": 8
+  },
+  "expected_cohort_size": 8984,
+  "cohort_size_matches": true,
+  "unique_ids_match_rows": true
+}

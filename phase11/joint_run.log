@@ -1,0 +1,63 @@
+panel 96841 common 82555 landmarks {(20, 'Men'): 3793, (20, 'Women'): 3496, (25, 'Men'): 2594, (25, 'Women'): 2347}
+landmark  sex    maximum
+20        Men    0           849
+                 1-4        1841
+                 10+         525
+                 5-9         578
+          Women  0           824
+                 1-4        2156
+                 10+         145
+                 5-9         371
+25        Men    0           198
+                 1-4        1196
+                 10+         648
+                 5-9         552
+          Women  0           175
+                 1-4        1540
+                 10+         186
+                 5-9         446
+dtype: int64
+design strata 117 PSU 234 df 117
+extra counts {0: 4589, 1: 4395} {3: 3359, 2: 2050, 4: 1990, 1: 1585} {1: 6574, 0: 2030, 2: 380} {1: 2522, 2: 1991, 27: 800, 12: 592, 13: 433, 3: 427, 4: 420, 11: 373, 25: 210, 8: 190, 5: 119, -2: 113, 7: 112, 10: 108, 18: 105, 6: 95, 26: 71, 21: 55, 22: 37, 24: 36, 9: 36, 16: 35, 15: 22, 14: 15, 19: 15, 23: 14, 17: 11, -1: 10, 20: 6, 32: 4, 31: 3, 34: 1, 30: 1, 28: 1, 35: 1}
+done maximum 240 False
+done cumulative 240 False
+done maximum 216 False
+done maximum 240 True
+  exposure  horizon  older  cap   sex    n    low   high      rd
+   maximum      240  False    1   Men 2366 0.6504 0.5323 -0.1181
+   maximum      240  False    1 Women 2301 0.6999 0.5622 -0.1377
+   maximum      240  False    5   Men 2366 0.6469 0.5247 -0.1221
+   maximum      240  False    5 Women 2301 0.7019 0.5596 -0.1423
+   maximum      240  False   10   Men 2366 0.6469 0.5247 -0.1221
+   maximum      240  False   10 Women 2301 0.7019 0.5596 -0.1423
+   maximum      240  False   20   Men 2366 0.6469 0.5247 -0.1221
+   maximum      240  False   20 Women 2301 0.7019 0.5596 -0.1423
+cumulative      240  False    1   Men 2153 0.6585 0.5717 -0.0867
+cumulative      240  False    1 Women 1846 0.7205 0.6171 -0.1033
+cumulative      240  False    5   Men 2153 0.6548 0.5697 -0.0852
+cumulative      240  False    5 Women 1846 0.7200 0.6212 -0.0988
+cumulative      240  False   10   Men 2153 0.6548 0.5697 -0.0852
+cumulative      240  False   10 Women 1846 0.7200 0.6212 -0.0988
+cumulative      240  False   20   Men 2153 0.6548 0.5697 -0.0852
+cumulative      240  False   20 Women 1846 0.7200 0.6212 -0.0988
+   maximum      216  False    1   Men 2366 0.6348 0.5065 -0.1283
+   maximum      216  False    1 Women 2301 0.6819 0.5414 -0.1405
+   maximum      216  False    5   Men 2366 0.6345 0.5049 -0.1296
+   maximum      216  False    5 Women 2301 0.6828 0.5421 -0.1407
+   maximum      216  False   10   Men 2366 0.6345 0.5049 -0.1296
+   maximum      216  False   10 Women 2301 0.6828 0.5421 -0.1407
+   maximum      216  False   20   Men 2366 0.6345 0.5049 -0.1296
+   maximum      216  False   20 Women 2301 0.6828 0.5421 -0.1407
+   maximum      240   True    1   Men 1409 0.6703 0.5363 -0.1340
+   maximum      240   True    1 Women 1392 0.7163 0.5926 -0.1237
+   maximum      240   True    5   Men 1409 0.6690 0.5332 -0.1357
+   maximum      240   True    5 Women 1392 0.7173 0.5937 -0.1236
+   maximum      240   True   10   Men 1409 0.6690 0.5332 -0.1357
+   maximum      240   True   10 Women 1392 0.7173 0.5937 -0.1236
+   maximum      240   True   20   Men 1409 0.6690 0.5332 -0.1357
+   maximum      240   True   20 Women 1392 0.7173 0.5937 -0.1236
+  exposure  horizon  older    n  censor_rank  censor_parameters  censored  multiplier_p99  multiplier_max  max_abs_coef
+   maximum      240  False 4667           45                 45       854          1.8750          5.5666        8.5537
+cumulative      240  False 3999           45                 45       751          1.8511          5.5915        8.6982
+   maximum      216  False 4667           45                 45       447          1.2579          1.8608        8.4035
+   maximum      240   True 2801           43                 43       305          1.3393          2.9804        8.5447

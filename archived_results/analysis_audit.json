@@ -1,0 +1,32 @@
+{
+  "original_respondents": 8984,
+  "landmark_observations": 12230,
+  "landmark_counts": {
+    "20": 7289,
+    "25": 4941
+  },
+  "general_audit": {
+    "contradictory_lifetime_zero": 46,
+    "unknown_marriage_date": 117,
+    "lifetime_below_previous_max": 56
+  },
+  "landmark_selection": {
+    "20_cohort": 8867,
+    "20_included": 7289,
+    "20_invalid_baseline_status": 4,
+    "20_married_before_entry": 537,
+    "20_missing_recent": 275,
+    "20_no_followup": 223,
+    "20_stale_exposure": 539,
+    "25_cohort": 8867,
+    "25_included": 4941,
+    "25_married_before_entry": 2308,
+    "25_missing_recent": 489,
+    "25_no_followup": 484,
+    "25_stale_exposure": 645
+  },
+  "bootstrap_repetitions": 400,
+  "weighting": "Round 1 baseline sampling weight",
+  "confidence_intervals": "Exploratory respondent-level bootstrap; not full survey-design-adjusted intervals",
+  "exposure_warning": "Cumulative and maximum counts are proxies, not verified distinct lifetime partner counts."
+}

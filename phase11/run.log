@@ -1,0 +1,50 @@
+panel 96841 common 82555 landmarks {(20, 'Men'): 3793, (20, 'Women'): 3496, (25, 'Men'): 2594, (25, 'Women'): 2347}
+landmark  sex    maximum
+20        Men    0           849
+                 1-4        1841
+                 10+         525
+                 5-9         578
+          Women  0           824
+                 1-4        2156
+                 10+         145
+                 5-9         371
+25        Men    0           198
+                 1-4        1196
+                 10+         648
+                 5-9         552
+          Women  0           175
+                 1-4        1540
+                 10+         186
+                 5-9         446
+dtype: int64
+original_background
+cohab_only
+common_recent_support
+direct_report_only
+regular_interval_or_lifetime
+interval_reports_only
+lifetime_reports_only_selected
+report_opportunity_adjustment
+noncohabiting_background
+older_cohort_background
+                         label        exposure   sex  n_low  n_high    low   high      rd      lo      hi  rank  parameters  converged
+           original_background         maximum   Men   1841     525 0.6497 0.5385 -0.1112 -0.1708 -0.0516    39          39       True
+           original_background         maximum Women   2156     145 0.6980 0.5590 -0.1390 -0.2332 -0.0447    39          39       True
+                    cohab_only         maximum   Men   1841     525 0.6505 0.5346 -0.1160 -0.1759 -0.0561    42          42       True
+                    cohab_only         maximum Women   2156     145 0.6986 0.5550 -0.1436 -0.2381 -0.0490    42          42       True
+         common_recent_support         maximum   Men   1841     273 0.6548 0.5388 -0.1160 -0.1970 -0.0350    44          44       True
+         common_recent_support         maximum Women   2156     100 0.6977 0.6000 -0.0976 -0.2152  0.0199    44          44       True
+            direct_report_only     rawmaxgroup   Men   1716     525 0.6525 0.5379 -0.1147 -0.1746 -0.0547    39          39       True
+            direct_report_only     rawmaxgroup Women   2084     145 0.7014 0.5590 -0.1424 -0.2368 -0.0481    39          39       True
+  regular_interval_or_lifetime regularmaxgroup   Men   1752     468 0.6535 0.5346 -0.1189 -0.1814 -0.0564    39          39       True
+  regular_interval_or_lifetime regularmaxgroup Women   2103     131 0.7041 0.5776 -0.1264 -0.2274 -0.0255    39          39       True
+         interval_reports_only  recentmaxgroup   Men   1891     424 0.6457 0.5444 -0.1013 -0.1667 -0.0360    39          39       True
+         interval_reports_only  recentmaxgroup Women   2213      75 0.6957 0.5144 -0.1813 -0.3050 -0.0575    39          39       True
+lifetime_reports_only_selected  directmaxgroup   Men   1733     244 0.6480 0.5355 -0.1126 -0.1946 -0.0305    39          39       True
+lifetime_reports_only_selected  directmaxgroup Women   1943      98 0.7088 0.5654 -0.1434 -0.2630 -0.0237    39          39       True
+ report_opportunity_adjustment         maximum   Men   1841     525 0.6501 0.5410 -0.1090 -0.1702 -0.0479    47          47       True
+ report_opportunity_adjustment         maximum Women   2156     145 0.6978 0.5576 -0.1403 -0.2366 -0.0440    47          47       True
+      noncohabiting_background         maximum   Men   1729     469 0.6456 0.5598 -0.0858 -0.1486 -0.0230    41          41       True
+      noncohabiting_background         maximum Women   1847     113 0.6934 0.5408 -0.1525 -0.2616 -0.0435    41          41       True
+       older_cohort_background         maximum   Men   1097     312 0.6690 0.5459 -0.1230 -0.2007 -0.0454    37          37       True
+       older_cohort_background         maximum Women   1302      90 0.7135 0.5982 -0.1153 -0.2330  0.0024    37          37       True

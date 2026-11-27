@@ -1,0 +1,6 @@
+positive log sex interaction current {'b': 0.0617, 'lo': 0.0429, 'hi': 0.0805, 'p': 0.0}
+15+ interaction {'b': 0.0794, 'lo': 0.0033, 'hi': 0.1555, 'p': 0.041}
+positive log sex interaction ever {'b': 0.033, 'lo': 0.0166, 'hi': 0.0494, 'p': 0.0001}
+15+ interaction {'b': 0.0659, 'lo': -0.005, 'hi': 0.1368, 'p': 0.068}
+positive log sex interaction union {'b': 0.049, 'lo': 0.0309, 'hi': 0.067, 'p': 0.0}
+15+ interaction {'b': 0.0747, 'lo': 0.003, 'hi': 0.1464, 'p': 0.0414}

@@ -1,0 +1,12 @@
+# Phase 9 — NLSY97 event-history reconciliation
+
+This package contains the executed Python analysis and aggregate outputs only; no individual records are distributed. The analysis independently reconstructs the Phase 8 interview-interval sample and Phase 6/7 landmark samples from the previous public-use extract. Place the `phase9` directory inside the directory containing `respondents.csv` and `resolved_variables(3).csv` (the latter mapping is also included in the archive at its root). Run `python phase9/phase9.py` with numpy, pandas, scipy, patsy and statsmodels installed. Tested in the ChatGPT computational container. The script writes aggregate CSV files to its own directory.
+
+- bridge_corrected.csv: corrected restricted positive-history event-history models; redundant zero indicators removed. HR and nominal respondent-cluster confidence intervals.
+- paired_timing.csv: difference between strictly lagged and contemporaneous coefficients, paired respondent-cluster score sandwich, including flexible age model. Nominal intervals; no full design correction.
+- fixed_standardized_curves.csv: age-20 fixed exposure, piecewise exponential models with sex/exposure/period-specific hazards; standardized over sex-specific observed weighted covariate distributions. Delta-method respondent-cluster intervals conditional on the covariate distribution.
+- riskset_audit.csv: descriptive counts and full interview-interval duration in years (not exact person-time after truncating the event interval).
+- standardization_audit.csv: sample sizes and design ranks.
+- run.log: sample counts and completion messages.
+
+This is a reconstruction, not an exact replication of Wolfinger & Perry (2023). Current/recent exposure may overlap a marriage event, whereas lagged exposure is measured at interval entry. Cumulative and maximum counts are imperfect proxies, not verified distinct lifetime counts. Controls do not fully reproduce the published specifications; survey design, initial selection, unmeasured confounding and incomplete exposure histories remain limitations. Standardized risks do not jointly incorporate IPCW, and conditioning on updated exposure or relationship status does not identify causal effects. Phase 9 does not repair the Phase 7 IPCW rank diagnostic or rerun its restricted models. Original scripts from the authors are still needed to explain differences in sample construction.

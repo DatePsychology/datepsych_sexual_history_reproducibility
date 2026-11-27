@@ -1,0 +1,46 @@
+N 15 44 10138 df 108
+           n       six      ever
+men                             
+<=11  2901.0  0.302842  0.441753
+12    2786.0  0.291909  0.481521
+13    2317.0  0.260433  0.449863
+14+   2134.0  0.295168  0.471387
+six C(AGER)+C(HISPRACE2)+C(wave) (                                                  b        lo        hi
+C(men, Treatment(reference="12"))[T.<=11]  0.023895 -0.011172  0.058963
+C(men, Treatment(reference="12"))[T.13]   -0.016833 -0.051235  0.017570
+C(men, Treatment(reference="12"))[T.14+]  -0.000145 -0.034895  0.034605, np.float64(1.5270160430263477), np.float64(0.2116513625948285))
+six C(AGER)+C(HISPRACE2)+C(wave)+C(HIEDUC) (                                                  b        lo        hi
+C(men, Treatment(reference="12"))[T.<=11]  0.022398 -0.012273  0.057069
+C(men, Treatment(reference="12"))[T.13]   -0.016447 -0.050969  0.018076
+C(men, Treatment(reference="12"))[T.14+]   0.000372 -0.034474  0.035219, np.float64(1.3674824134829586), np.float64(0.2566499782404048))
+ever C(AGER)+C(HISPRACE2)+C(wave) (                                                  b        lo        hi
+C(men, Treatment(reference="12"))[T.<=11] -0.007911 -0.039091  0.023269
+C(men, Treatment(reference="12"))[T.13]   -0.008351 -0.042263  0.025561
+C(men, Treatment(reference="12"))[T.14+]  -0.017189 -0.048245  0.013866, np.float64(0.4066795066337263), np.float64(0.7485016364999485))
+ever C(AGER)+C(HISPRACE2)+C(wave)+C(HIEDUC) (                                                  b        lo        hi
+C(men, Treatment(reference="12"))[T.<=11] -0.007540 -0.038646  0.023565
+C(men, Treatment(reference="12"))[T.13]   -0.007116 -0.040596  0.026364
+C(men, Treatment(reference="12"))[T.14+]  -0.016220 -0.046994  0.014553, np.float64(0.3733047990237564), np.float64(0.7724215959258245))
+N 25 44 6720 df 108
+           n       six      ever
+men                             
+<=11  1868.0  0.344865  0.620073
+12    1866.0  0.342204  0.658302
+13    1476.0  0.329801  0.658731
+14+   1510.0  0.345850  0.636889
+six C(AGER)+C(HISPRACE2)+C(wave) (                                                  b        lo        hi
+C(men, Treatment(reference="12"))[T.<=11]  0.012208 -0.033713  0.058129
+C(men, Treatment(reference="12"))[T.13]   -0.005370 -0.049997  0.039257
+C(men, Treatment(reference="12"))[T.14+]   0.008796 -0.031572  0.049165, np.float64(0.24240573421560732), np.float64(0.866570634645982))
+six C(AGER)+C(HISPRACE2)+C(wave)+C(HIEDUC) (                                                  b        lo        hi
+C(men, Treatment(reference="12"))[T.<=11]  0.010454 -0.035220  0.056128
+C(men, Treatment(reference="12"))[T.13]   -0.003866 -0.048456  0.040724
+C(men, Treatment(reference="12"))[T.14+]   0.010732 -0.029471  0.050934, np.float64(0.21582908488179112), np.float64(0.8852381373774835))
+ever C(AGER)+C(HISPRACE2)+C(wave) (                                                  b        lo        hi
+C(men, Treatment(reference="12"))[T.<=11] -0.018129 -0.061990  0.025732
+C(men, Treatment(reference="12"))[T.13]   -0.003924 -0.050325  0.042476
+C(men, Treatment(reference="12"))[T.14+]  -0.019378 -0.060255  0.021500, np.float64(0.44833422745392687), np.float64(0.718982826968218))
+ever C(AGER)+C(HISPRACE2)+C(wave)+C(HIEDUC) (                                                  b        lo        hi
+C(men, Treatment(reference="12"))[T.<=11] -0.016563 -0.060385  0.027258
+C(men, Treatment(reference="12"))[T.13]    0.000353 -0.045208  0.045915
+C(men, Treatment(reference="12"))[T.14+]  -0.015958 -0.056854  0.024938, np.float64(0.39750314982852775), np.float64(0.7550584784476823))

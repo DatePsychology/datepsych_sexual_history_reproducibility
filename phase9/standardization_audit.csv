@@ -1,0 +1,7 @@
+exposure,specification,n,parameters,rank
+maximum,unadjusted,4667,20,20
+maximum,background,4667,39,39
+maximum,relationship,4667,45,45
+cumulative,unadjusted,3999,20,20
+cumulative,background,3999,39,39
+cumulative,relationship,3999,45,45

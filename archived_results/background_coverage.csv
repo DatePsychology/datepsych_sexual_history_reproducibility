@@ -1,0 +1,5 @@
+landmark,sex,n,income_observed,father_ed_observed,mother_ed_observed,complete_background,prior_cohab_known
+20,Men,3793,2823,3033,3509,2286,3692
+20,Women,3496,2585,2779,3261,2095,3417
+25,Men,2594,1932,2071,2412,1557,2522
+25,Women,2347,1714,1858,2189,1381,2294
