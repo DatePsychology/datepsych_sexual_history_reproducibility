@@ -1,6 +1,6 @@
 # Does sexual history matter? — Reproducibility materials
 
-Companion to the methodological review [**Does sexual history matter?**](https://datepsych.substack.com/p/does-sexual-history-matter). This is an exploratory observational and methodological investigation, not a preregistered or peer-reviewed replication. No participant-level data are distributed here.
+Companion to the methodological review [**Does sexual history matter?**](https://datepsych.substack.com/p/does-sexual-history-matter) This is an exploratory observational and methodological investigation, not a preregistered or peer-reviewed replication. No participant-level data are distributed here.
 
 ## Quick start: regenerate the published figures without microdata
 
