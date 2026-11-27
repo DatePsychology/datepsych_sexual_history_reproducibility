@@ -1,0 +1,10 @@
+# Analytical decisions and revisions
+
+- Phases 1–3: conditional survey-denominator reconstruction, literature checks, NSFG reference-population and marriage analyses.
+- Phase 4: menarche instrument-relevance sensitivity; different data and outcome construction from original paper.
+- Phases 5–6: age-20/25 landmark cohorts, maximum/cumulative/recent indices, corrected anchoring and measurement audit; nonrandom specification choices.
+- Phase 7: parent education and prior cohabitation, censoring and matched-trajectory checks, exploratory sex interactions. Four restricted models contained a redundant cohabitation predictor; IPCW initially lacked rank diagnostics.
+- Phases 8–9: qualitative event-history reconstruction; original risk-set counts not reproduced. Removed redundant zero indicators in restricted bridge models; formal paired timing covariance and flexible age sensitivity. Bridge adjustment remains structurally dependent on earlier exposure.
+- Phase 10: broader synthesis and Thomas sensitivity/equivalence checks. Equivalence margins post hoc.
+- Phase 11: adversarial audit. Preferred primary model changed from recent-count adjustment to background adjustment due to deterministic overlap violation. Expanded baseline controls, survey-design linearization, direct-report and interview-window sensitivity, joint IPCW point estimates. Initial incomplete design extract rejected by exact ID check.
+- Phase 12 (review response): include all categories and group counts; new absolute-risk confidence intervals; repeated-high-report restriction (weaker and inconclusive estimates); no selective exclusion of this result. Added sample-specific base rates, importance mean reconstructions, sampling/instrument and dating-exposure caveats, qualified benchmark and timing interpretation, and corrected figure labels/uncertainty. Reproduced threshold calculations and paired bootstrap. Independent selected event-history rerun attempted but did not finish within execution limit. Repository prepared locally; public URL pending user upload.
